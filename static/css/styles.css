@@ -1,10 +1,10 @@
-.containera {
+.container  {
     display:flex;
-    width:800px;
-    height:600px;
+    width:600px;
+    height:400px;
     margin: auto;
-    padding: 10px;
-    text-align:center;
+    text-decoration: none;
+
 }
 .dropdown-item:hover {
     color:#F39C12;
@@ -16,4 +16,8 @@
 
 .nav-link:hover {
     color:#F39C12;
+}
+
+.a {
+    text-decoration: none !important;
 }
