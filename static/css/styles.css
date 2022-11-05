@@ -1,0 +1,19 @@
+.containera {
+    display:flex;
+    width:800px;
+    height:600px;
+    margin: auto;
+    padding: 10px;
+    text-align:center;
+}
+.dropdown-item:hover {
+    color:#F39C12;
+}
+
+.navbar-brand:hover {
+    color:#F39C12;
+}
+
+.nav-link:hover {
+    color:#F39C12;
+}
