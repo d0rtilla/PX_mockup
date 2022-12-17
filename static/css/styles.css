@@ -12,14 +12,11 @@ body {
 
 }
 
-.container  {
-    display:flex;
-    width:600px;
-    height:400px;
-    margin: auto;
-    text-decoration: none;
-
+.wrapper {
+    width:max-content;
+    margin: 0 auto;
 }
+
 /* Making Dropdowns Look Pretty */
 .dropdown-item:hover {
     color:#F39C12;
