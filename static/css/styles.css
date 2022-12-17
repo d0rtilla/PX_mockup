@@ -1,3 +1,4 @@
+/* Responsive Background Image */
 body {
     background-image: url(https://d0rtilla.github.io/PX_mockup/static/images/IMG_2291.jpg);
     background-size: cover;
@@ -19,6 +20,7 @@ body {
     text-decoration: none;
 
 }
+/* Making Dropdowns Look Pretty */
 .dropdown-item:hover {
     color:#F39C12;
 }

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width-device-width, initial-scale=1.0" />
-    <title>Project Overview</title>
+    <title>The Peach Pit!</title>
     <link rel="shortcut icon" type="image/x-icon" href="static/icon.ico" />
 
     <!-- Import Bootstrap CSS -->
@@ -21,6 +21,7 @@
 
   <body>
     
+    <!--Navbar-->
     <div class="navigation">
       <nav class="navbar navbar-expand-lg navbar-light">
         <div
@@ -31,9 +32,24 @@
           <li class="nav-item">
             <a class="nav-link" href="index.html">Home</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Order Online</a>
-          </li>
+
+          <li>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Order Online
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Mercato</a></li>
+                    <li><a class="dropdown-item" href="#">Doordash</a></li>
+                  </li>
+                  </ul>
+              </div>
+            </li>
           <li>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -50,10 +66,14 @@
                     <li><a class="dropdown-item" href="#">Contact Us</a></li>
                   </li>
                   </ul>
+              </div>
+            </li>
           </ul>
         </div>
       </nav>
     </div>
+
+    <!--Website Body-->
     <br />
     <br />
     <br />
