@@ -33,3 +33,9 @@ body {
 .a {
     text-decoration: none !important;
 }
+
+.square-box {
+    max-width: 600px;
+    min-height: 600px;
+    
+}
